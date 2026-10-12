@@ -7,6 +7,7 @@ let message = document.getElementById("message");
 let resala = document.getElementById("resala");
 button.addEventListener("click" , function(){
     let casio = Repeater.value
+    result.textContent=""
     for(let i = 0; i < casio; i++){
        result.textContent += message.value + "    ";
     } 
